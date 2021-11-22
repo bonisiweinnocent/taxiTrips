@@ -1,0 +1,29 @@
+{
+  "name": "taxi-trips-app",
+  "version": "1.0.0",
+  "description": "A local study is looking into the national minibus taxi industry in South Africa and they need help analyzing some data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonisiweinnocent/taxi-trips.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bonisiweinnocent/taxi-trips/issues"
+  },
+  "homepage": "https://github.com/bonisiweinnocent/taxi-trips#readme"
+}
