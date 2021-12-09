@@ -24,8 +24,8 @@ describe('Taxi Trips', function () {
     it('should find how many trips all the taxis made', async function () {
 
         const taxiTrips = TaxiTrips(pool)
-        // await taxiTrips.getRegNum;
 
+        
         assert.equal([], await taxiTrips.totalTripCount());
 
 
